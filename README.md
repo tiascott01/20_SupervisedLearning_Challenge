@@ -16,10 +16,7 @@ In the 20_SupervisedLearning_Challenge, this dataset is an analysis of different
 
 ## Analysis
 
-## Overview of the Analysis
-
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
-
+### Overview of the Analysis
 * Explain the purpose of the analysis.
 - In our study, we evaluated the performance of two machine learning algorithms on financial datasets to forecast the risk associated with various loans.
 
@@ -39,7 +36,7 @@ In this section, describe the analysis you completed for the machine learning mo
 - The initial model predominantly identified loans as low-risk, leading to an imbalanced assessment. To address this, our second model incorporated resampling to achieve a more balanced evaluation between healthy 
   and high-risk loans.
 
-## Results
+### Results
 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
@@ -79,7 +76,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
         - Healthy loans (class 0): 1.00
         - High-risk loans (class 1): 0.91
 
-## Summary
+### Summary
 
 * Q1. Which one seems to perform best? How do you know it performs best?
 
