@@ -17,23 +17,23 @@ In the 20_SupervisedLearning_Challenge, this dataset is an analysis of different
 ## Analysis
 
 ### Overview of the Analysis
-* Explain the purpose of the analysis.
-- In our study, we evaluated the performance of two machine learning algorithms on financial datasets to forecast the risk associated with various loans.
+1. Explain the purpose of the analysis.
+1a. In our study, we evaluated the performance of two machine learning algorithms on financial datasets to forecast the risk associated with various loans.
 
-* Explain what financial information the data was on, and what you needed to predict.
-- Our objective was to utilize data from a financial institution to predict the status of loan repayments. Specifically, we aimed to classify loans as either high-risk or low-risk, an essential aspect of risk  
+2. Explain what financial information the data was on, and what you needed to predict.
+2a. Our objective was to utilize data from a financial institution to predict the status of loan repayments. Specifically, we aimed to classify loans as either high-risk or low-risk, an essential aspect of risk  
   management and decision-making in the finance industry. 
 
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-- Our analysis involved examining a range of predictive factors and developing two models to assess how risks are distributed among loans. The dataset comprised 75,036 low-risk (healthy) loans and 2,500 high-risk 
+3. Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
+3a. Our analysis involved examining a range of predictive factors and developing two models to assess how risks are distributed among loans. The dataset comprised 75,036 low-risk (healthy) loans and 2,500 high-risk 
   loans, indicating significant manual effort in their identification. 
 
-* Describe the stages of the machine learning process you went through as part of this analysis.
-- The process encompassed data preprocessing, feature selection, model training, and evaluation. We employed logistic regression as the foundational classifier and investigated the impact of resampling techniques to 
+4. Describe the stages of the machine learning process you went through as part of this analysis.
+4a. The process encompassed data preprocessing, feature selection, model training, and evaluation. We employed logistic regression as the foundational classifier and investigated the impact of resampling techniques to 
   mitigate the issue of class imbalance within the dataset.
 
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
-- The initial model predominantly identified loans as low-risk, leading to an imbalanced assessment. To address this, our second model incorporated resampling to achieve a more balanced evaluation between healthy 
+5. Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
+5a. The initial model predominantly identified loans as low-risk, leading to an imbalanced assessment. To address this, our second model incorporated resampling to achieve a more balanced evaluation between healthy 
   and high-risk loans.
 
 ### Results
