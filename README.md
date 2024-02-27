@@ -91,11 +91,11 @@ A. Machine Learning Model 2 appears to perform better for the task of predicting
 Machine Learning Model 2 outperforms Model 1 overall, demonstrated by its higher balanced accuracy score, significantly improved recall for high-risk loans without a substantial compromise in precision, and a higher F1-Score for high-risk loans. These factors collectively indicate that Model 2 is more effective and reliable for predicting loan risk, making it the preferred choice for financial institutions seeking to enhance their risk management processes.
 
 
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+2. <b>Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )</b><br>
 
-The best model depends on the problem's specific goals and the relative costs of false positives vs. false negatives. For financial institutions prioritizing the detection of high-risk loans to minimize defaults, Model 2 is preferable due to its higher recall for high-risk loans. This model ensures that nearly all high-risk loans are identified, aligning with the goal of minimizing financial risk, even if it means a slight increase in the number of healthy loans incorrectly classified as high-risk.
+A. The best model depends on the problem's specific goals and the relative costs of false positives vs. false negatives. For financial institutions prioritizing the detection of high-risk loans to minimize defaults, Model 2 is preferable due to its higher recall for high-risk loans. This model ensures that nearly all high-risk loans are identified, aligning with the goal of minimizing financial risk, even if it means a slight increase in the number of healthy loans incorrectly classified as high-risk.
 
-If you do not recommend any of the models, please justify your reasoning.
+3. <b>If you do not recommend any of the models, please justify your reasoning.</b><br>
 
 Model 2 stands out as the preferable choice for enhancing the financial institution's ability to manage and mitigate loan risk effectively. This model's significantly higher recall for high-risk loans minimizes the chance of overlooking potential defaults, a critical factor in risk management. The increase in false positives—healthy loans mistakenly classified as high-risk—is acknowledged but is considered a manageable trade-off given the substantial reduction in false negatives. Specifically, Model 2's performance translates into 54 fewer high-risk loans being misclassified as healthy compared to Model 1.
 
@@ -106,7 +106,7 @@ Moreover, the slight increase in false positives (healthy loans classified as hi
 The recommendation for Model 2 is further supported by the suggestion that the business conducts additional studies to evaluate the model's performance against manual risk assessments traditionally used by the institution. This comparison could reveal that the model's "false positives" might, in some instances, be more accurately identifying risks that manual evaluations miss. Such findings could indicate that the model not only enhances efficiency and risk detection but also potentially outperforms traditional human assessments in identifying latent or non-obvious risks.
 
 
-While this analysis recommends Model 2 as a strategic asset for the business, it also emphasizes the need for ongoing evaluation and refinement of the model, including a comparison with manual accuracy rates to continuously enhance its effectiveness and efficiency in identifying loan risks.
+<i>While this analysis recommends Model 2 as a strategic asset for the business, it also emphasizes the need for ongoing evaluation and refinement of the model, including a comparison with manual accuracy rates to continuously enhance its effectiveness and efficiency in identifying loan risks.</i>
 
 
 
