@@ -17,7 +17,7 @@ In the 20_SupervisedLearning_Challenge, this dataset is an analysis of different
 ## Analysis
 
 ### Overview of the Analysis
-1. Explain the purpose of the analysis.
+1. <b>Explain the purpose of the analysis.<b></b>
 1a. In our study, we evaluated the performance of two machine learning algorithms on financial datasets to forecast the risk associated with various loans.
 
 2. Explain what financial information the data was on, and what you needed to predict.
