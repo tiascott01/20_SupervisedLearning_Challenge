@@ -57,8 +57,6 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
         - Healthy loans (class 0): 1.00
         - High-risk loans (class 1): 0.88
 
-
-
 * Machine Learning Model 2:
 
   - Balanced Accuracy Score: Approximately 0.993
@@ -78,17 +76,16 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 ### Summary
 
-* Q1. Which one seems to perform best? How do you know it performs best?
+1. <b>Which one seems to perform best? How do you know it performs best?</b><br>
 
-* A1. Machine Learning Model 2 appears to perform better for the task of predicting loan risk (healthy vs. high-risk loans). The reasons for its superior performance are highlighted through several key indicators:
+1a. Machine Learning Model 2 appears to perform better for the task of predicting loan risk (healthy vs. high-risk loans). The reasons for its superior performance are highlighted through several key indicators:
+    a. Model 2 has a higher balanced accuracy score of approximately 0.993 compared to Model 1's score of 0.952. This score is particularly important in datasets with imbalanced classes, as it gives equal weight to the performance in both classes. A higher balanced accuracy score indicates that Model 2 is more effective in correctly identifying both healthy and high-risk loans across the board.
 
-1a. Model 2 has a higher balanced accuracy score of approximately 0.993 compared to Model 1's score of 0.952. This score is particularly important in datasets with imbalanced classes, as it gives equal weight to the performance in both classes. A higher balanced accuracy score indicates that Model 2 is more effective in correctly identifying both healthy and high-risk loans across the board.
+    b. The recall (or True Positive Rate) for high-risk loans in Model 2 is 0.99, compared to 0.91 in Model 1. This metric is crucial in the context of loan risk prediction because it measures the model's ability to identify all actual high-risk loans. A higher recall means fewer high-risk loans are missed by the model, which is vital for financial institutions to minimize the risk of loan defaults. The significant improvement in recall in Model 2 indicates its superior capability in correctly identifying high-risk loans.
 
-2a. The recall (or True Positive Rate) for high-risk loans in Model 2 is 0.99, compared to 0.91 in Model 1. This metric is crucial in the context of loan risk prediction because it measures the model's ability to identify all actual high-risk loans. A higher recall means fewer high-risk loans are missed by the model, which is vital for financial institutions to minimize the risk of loan defaults. The significant improvement in recall in Model 2 indicates its superior capability in correctly identifying high-risk loans.
+    c. While Model 2 has a slightly lower precision for high-risk loans (0.84) compared to Model 1 (0.85), the significant improvement in recall (from 0.91 in Model 1 to 0.99 in Model 2) for high-risk loans is more critical for the loan prediction task. In risk management, it is often more costly to miss identifying a high-risk loan than to incorrectly classify a healthy loan as high-risk. Therefore, the trade-off favors a model with higher recall for high-risk loans, making Model 2 more suitable.
 
-3a. While Model 2 has a slightly lower precision for high-risk loans (0.84) compared to Model 1 (0.85), the significant improvement in recall (from 0.91 in Model 1 to 0.99 in Model 2) for high-risk loans is more critical for the loan prediction task. In risk management, it is often more costly to miss identifying a high-risk loan than to incorrectly classify a healthy loan as high-risk. Therefore, the trade-off favors a model with higher recall for high-risk loans, making Model 2 more suitable.
-
-4a. The F1-Score for high-risk loans in Model 2 improved to 0.91 from 0.88 in Model 1. The F1-Score is a harmonic mean of precision and recall, offering a single metric to assess a model's balanced performance between these two aspects. An improvement in the F1-Score for high-risk loans in Model 2 indicates a better balance between precision and recall, emphasizing its efficiency in identifying high-risk loans accurately.
+    d. The F1-Score for high-risk loans in Model 2 improved to 0.91 from 0.88 in Model 1. The F1-Score is a harmonic mean of precision and recall, offering a single metric to assess a model's balanced performance between these two aspects. An improvement in the F1-Score for high-risk loans in Model 2 indicates a better balance between precision and recall, emphasizing its efficiency in identifying high-risk loans accurately.
 
 Machine Learning Model 2 outperforms Model 1 overall, demonstrated by its higher balanced accuracy score, significantly improved recall for high-risk loans without a substantial compromise in precision, and a higher F1-Score for high-risk loans. These factors collectively indicate that Model 2 is more effective and reliable for predicting loan risk, making it the preferred choice for financial institutions seeking to enhance their risk management processes.
 
